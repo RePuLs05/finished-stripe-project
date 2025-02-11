@@ -484,10 +484,10 @@
     // Custom shader for ocean and land color
     const sphereMaterial = new THREE.ShaderMaterial({
         uniforms: {
-            earthTexture: { value: earthTexture },
-            oceanColor: { value: new THREE.Color(0x00ff37) }, // Deep blue for oceans
-            landColor: { value: new THREE.Color(0xfa3f48) }   // Muted blue-gray for land
-        },
+    earthTexture: { value: earthTexture },
+    oceanColor: { value: new THREE.Color(0x0000ff) }, // Blue for oceans
+    landColor: { value: new THREE.Color(0xFF0000) }   // Brown for land
+},
         vertexShader: `
             varying vec2 vUv;
             void main() {
