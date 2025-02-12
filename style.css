@@ -339,6 +339,7 @@ header .nav .nav_list li:nth-of-type(6) {
   color: rgba(66, 84, 102, 1);
   font-size: 14px;
   line-height: 24px;
+  cursor: pointer;
 }
 .first-word {
   color: rgba(99, 91, 255, 1);
